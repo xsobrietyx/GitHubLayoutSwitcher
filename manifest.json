@@ -1,0 +1,10 @@
+{
+  "name": "Gist Visibility Switcher",
+  "version": "1.0",
+  "description": "Extension to show only public gists (redirect to */public)",
+  "manifest_version": 2,
+  "permissions": ["webRequest", "*://*.github.com/*", "webRequestBlocking"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
