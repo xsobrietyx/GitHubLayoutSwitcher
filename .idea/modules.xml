@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GistVisibilitySwitcher.iml" filepath="$PROJECT_DIR$/GistVisibilitySwitcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GitHubVisibilitySwitcher.iml" filepath="$PROJECT_DIR$/GitHubVisibilitySwitcher.iml" />
     </modules>
   </component>
 </project>
