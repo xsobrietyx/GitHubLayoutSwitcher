@@ -1,5 +1,5 @@
 {
-  "name": "Gist Visibility Switcher",
+  "name": "GitHub Layout Switcher",
   "version": "1.0",
   "description": "Chrome extension that based on current GitHub API and redirects in two particular cases:\n (A) https://github.com -> https://github.com/PROFILE_NAME\n (B) https://gist.github.com/PROFILE_NAME -> https://gist.github.com/PROFILE_NAME/public",
   "manifest_version": 2,
