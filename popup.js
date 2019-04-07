@@ -35,8 +35,8 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     function submitUserName() {
-        var userNameInput = document.getElementById("userName__text");
-        var userName = userNameInput.value;
+        let userNameInput = document.getElementById("userName__text");
+        let userName = userNameInput.value;
 
         const key = "gvsUserName";
         localStorage.removeItem(key);
@@ -51,6 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
         window.close();
     }
 
-    var el = document.getElementById("userName__submit");
+    let el = document.getElementById("userName__submit");
     el.addEventListener("click", submitUserName);
 });
