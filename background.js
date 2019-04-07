@@ -42,7 +42,7 @@ let callback = function (request) {
 
     let matchers = createMatchers(localStorage.getItem(key));
 
-    for (var i = 1; i < matchers.length; i++) {
+    for (let i = 1; i < matchers.length; i++) {
         if (request.url.match(matchers[i][0])) {
             return {redirectUrl: request.url + matchers[i][1]};
         }
