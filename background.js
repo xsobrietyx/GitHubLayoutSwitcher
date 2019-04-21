@@ -53,7 +53,7 @@ let callback = function (request) {
 
 function createMatchers(a) {
     let flags = "gm";
-    let cases = ["^(.+(gist)).*(" + a + ")$", "^(.+(gist)).*(" + a + "/)$", ".+(github.com)$", ".+(github.com/)$"];
+    let cases = ["^(.+(gist)).*(" + a + ")$", "^(.+(gist)).*(" + a + "/)$", ".+(\/www.github.com)$", ".+(\/github.com/)$"];
     return [a,
         [new RegExp(cases[0], flags), "/public"], [new RegExp(cases[1], flags), "public"],
         [new RegExp(cases[2], flags), "/" + a], [new RegExp(cases[3], flags), a]
