@@ -1,4 +1,5 @@
-# GitHubVisibilitySwitcher
+![alt text](/icon.png)# GitHubVisibilitySwitcher
+
 > Chrome extension that redirects to the better (from my point of view) layouts in github.com and gist.github.com
 
 ## How it works
@@ -12,4 +13,3 @@ Chrome extension that based on current GitHub API and redirects in two particula
 - Set your user name using extension input field
 - Done
 
-![alt text](/icon.png)
