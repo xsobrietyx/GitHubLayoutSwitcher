@@ -11,3 +11,5 @@ Chrome extension that based on current GitHub API and redirects in two particula
 - Add extension to the Google Chrome Browser
 - Set your user name using extension input field
 - Done
+
+![alt text](/icon.png)
